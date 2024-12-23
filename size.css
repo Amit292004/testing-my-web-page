@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .support-section {
+        padding: 15px;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+    .donation-form input[type="text"] {
+        width: 100%;
+    }
+    .donation-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .support-section {
+        padding: 10px;
+    }
+    .donation-form input[type="text"] {
+        padding: 8px;
+    }
+    .donation-form button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
